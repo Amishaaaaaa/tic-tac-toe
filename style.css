@@ -1,0 +1,79 @@
+
+body{
+    background-color: bisque;
+}
+
+h1 {
+    color:brown;
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+}
+.divs {
+    height: 5vmin;
+    width: 5vmin;
+    display:flex;
+    justify-content:center;
+    gap: 0.5vmin;
+    padding: 20px;
+}
+
+.game {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.hit {
+    height: 8vmin;
+    width: 8vmin;
+    border-radius: 1rem;
+    border:none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3); 
+    padding-left:30px;
+    padding-right: 40px;
+    padding-top: 5px;
+    margin:5px;
+    background-color: rgb(210, 153, 112);
+    font-size: 5vmin;;
+    cursor: pointer;
+}
+
+#reset {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#reset-btn {
+    padding:20px;
+    margin:20px;
+    cursor: pointer;
+    font-size: 15px;
+}
+#new-btn {
+    padding:20px;
+    margin:20px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#msg {
+    color:rgb(160, 216, 37);
+    font-size: 5vmin;;
+}
+#draw {
+    color:aliceblue;
+    font-size: 5vmin;
+}
+
+.msg-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40vmin;
+}
+
+.hide {
+    display: none;
+}
